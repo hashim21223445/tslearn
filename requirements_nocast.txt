@@ -5,3 +5,5 @@ scikit-learn
 joblib>=0.12
 tensorflow>=2
 h5py
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
