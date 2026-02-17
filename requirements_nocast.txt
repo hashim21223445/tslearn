@@ -5,3 +5,4 @@ scikit-learn
 joblib>=0.12
 tensorflow>=2
 h5py
+keras>=3.11.0 # not directly required, pinned by Snyk to avoid a vulnerability
